@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php" recordTestRunHistory="false">
+    <php>
+        <server name="KERNEL_CLASS" value="App\Kernel" />
+        <server name="SHELL_VERBOSITY" value="-1" />
+    </php>
+    <testsuites>
+        <testsuite name="reproducer">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
